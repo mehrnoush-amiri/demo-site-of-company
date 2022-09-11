@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.first-container{
+    margin: 50px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.top-container{
+    max-width:380px ;
+}
+.top-container img{
+    padding-bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+.main-header{
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.main-explain{
+    font-size: 10px;
+    padding-bottom:20px ;
+}
+button{
+    font-size: 10px;
+    color: snow;
+    height: 30px;
+    width: 113px;
+    border-radius: 90rem;
+    border-style: none;
+    background-color: hsl(171, 66%, 44%);
+}
+.colored-button{
+    background-color:hsl(233, 100%, 69%) ;
+}
+.bottom-container{
+    margin-top: 60px;
+    max-width: 380px;
+}
+.topic-header{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.topic-explain{
+    font-size: 10px;
+}
+.second-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.feature{
+    max-width: 150px;
+}
+.feature p{
+    font-size: 7px;
+}
